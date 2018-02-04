@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="HSQLDB (Local) - jdbc:hsqldb:file:D:/xampp/htdocs/yindu\/" uuid="c5cd9a73-5d50-4a69-afc5-0f120a8c3d80">
+      <secret-storage>master_key</secret-storage>
+      <first-sync>true</first-sync>
+    </data-source>
+  </component>
+</project>

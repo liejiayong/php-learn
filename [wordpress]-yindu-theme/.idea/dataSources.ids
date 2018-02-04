@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="HSQLDB (Local) - jdbc:hsqldb:file:D:/xampp/htdocs/yindu\/" uuid="c5cd9a73-5d50-4a69-afc5-0f120a8c3d80">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

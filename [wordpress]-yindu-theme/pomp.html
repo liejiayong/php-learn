@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/bootstrap.css"/>
+    <script src="assets/js/jQuery-3.2.1.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<style>
+    .epage-img{
+        position: relative;
+        top:8px;
+        left: 8px;
+        border:2px solid #ccc;
+    }
+    .epagec{
+        background-color:#ccc;
+    }
+</style>
+
+
+
+<img src="assets/iamges/screenshot.png" class="epage-img" alt="Planets" usemap="#planetmap">
+
+<map name="planetmap">
+    <area shape="rect" coords="0,0,335,295" alt="Sun" href="localhost:8080/wordpress/domain" target="e-page">
+    <area shape="rect" coords="335,0,670,295" alt="Mercury" href="localhost:8080/wordpress/ads" target="e-page">
+    <area shape="rect" coords="0,295,335,590" alt="Venus" href="localhost:8080/wordpress/bcs" target="e-page">
+    <area shape="rect" coords="335,295,670,590" alt="Venus" href="localhost:8080/wordpress/com" target="e-page">
+</map>
+
+<iframe name="e-page" id="epage" class="epagec" width="500" height="300"  frameborder="0" scrolling="no">iframe</iframe>
+
+</body>
+</html>

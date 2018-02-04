@@ -1,0 +1,96 @@
+/*
+Theme Name:Yong
+Theme URI:www.twicetech.top
+Description:personal theme
+Version:0.1
+Author:liejy
+Author URI:www.twicetech.top
+Tags:简介 双栏
+*/
+div#header,.container_,.footer{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+div.nav div.container div.menu-main-container ul#menu-main li{
+    list-style-type:none;
+    float: left;
+    text-align: center;
+    padding:0px 20px;
+}
+
+div#headerimg {
+    padding: 10px 20px;
+    background-color: #f3f1f1;
+    margin: 0;
+    border: 1px #ccc solid;
+}
+
+.footer h3{
+    background-color: #bbbbbb;
+    width: 100%;
+    height:auto;
+    text-align: center;
+    padding:30px 0;
+}
+.container_ .content{
+    width: 80%;
+}
+.container_ .page-box .content{
+    width: 100%;
+    float:none;
+}
+
+.home-loop .post-item ,.nav{
+    margin-top: 10px;
+    padding:10px;
+    border: 1px #eeeeee solid;
+}
+
+.cat{
+    padding:10px;
+    border: 1px #eeeeee solid;
+}
+.content,.sidebar{
+    float: left;
+}
+
+.sidebar{
+    width: 20%;
+    zoom:1;
+}
+ul#menu-main:after{
+    content:"";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.container_:before{
+    content: '';
+    clear: both;
+    display: inline-block;
+    height:0;
+    visibility: hidden;
+}
+.container_:after{
+    content: '';
+    clear: both;
+    display: block;
+    height:0;
+    visibility: hidden;
+}
+#right-bar .box{
+    margin:10px;
+    border: 1px #eeeeee solid;
+}
+
+.box li{
+    list-style-type: none;
+    padding:10px;
+}
+
+.epage-img{
+    width: 670px;
+
+}

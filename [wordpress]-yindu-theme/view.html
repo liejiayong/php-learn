@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+<div id="simple">
+    {{message}}
+</div>
+<div id="forlist">
+    <ol v-for="item in forlist">
+        {{item.text}}
+    </ol>
+</div>
+
+<script src="assets/js/vue.js"></script>
+<script src="assets/js/view.js"></script>
+<script>
+    (function(){
+        var simple = Vue;
+        var simpleD = new Vue({
+            el:'#simple',
+            data:{
+                message:"this is simple"+new Date()
+            }
+        });
+        var forL = new Vue({
+            el:'#forlist',
+            data:{
+                forlist:[
+                    {text:'vegetable'},
+                    {text:'cheese'},
+                    {text:'fruit'}
+                ]
+            }
+        });
+    })()
+</script>
+</body>
+</html>

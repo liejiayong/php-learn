@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Yong\n"
+"POT-Creation-Date: 2017-06-08 17:02+0800\n"
+"PO-Revision-Date: 2017-06-08 17:02+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: index.php\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: category-1.php:7 category-1.php:24 category.php:3 category.php:21
+#: content.php:7 index.php:19 page.php:20 search.php:22 sidebar.php:15
+msgid "Category:"
+msgstr "分类："
+
+#: category-1.php:26 category.php:23 content.php:11 index.php:21 page.php:22
+#: search.php:24
+msgid "Post in:"
+msgstr "发布于："
+
+#: category-1.php:27 category.php:24 search.php:25
+msgid "Edit"
+msgstr "编辑"
+
+#: commets.php:3
+msgid "comment:"
+msgstr "评论："
+
+#: content.php:9 footer.php:3 index.php:20
+msgid "Posted by:"
+msgstr "发布者："
+
+#: content.php:21
+msgid "Perious:"
+msgstr "上一篇："
+
+#: content.php:23
+msgid "Next:"
+msgstr "下一篇："
+
+#: search.php:6
+msgid "search key:"
+msgstr "搜索关键词："
+
+#: sidebar.php:24
+msgid "Page:"
+msgstr "页面链接："
+
+#: sidebar.php:33
+msgid "Manager:"
+msgstr "管理："
+
+#~ msgid "search:"
+#~ msgstr "搜索："
+
+#~ msgid "Perious"
+#~ msgstr "shang'yi'p"
+
+#~ msgid "Category"
+#~ msgstr "分类："
